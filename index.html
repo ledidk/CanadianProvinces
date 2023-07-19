@@ -3,128 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>My Canada Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-        nav {
-            margin-top: 10px;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .province-details {
-            margin-top: 20px;
-            padding: 10px;
-            background-color: #f2f2f2;
-            border: 1px solid #ddd;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>View Canadian Provinces Names</h1>
+        <h1 id="page-title">View Canadian Provinces Names</h1>
         <nav>
             <ul>
-                <li><a onclick="showHome()">Home</a></li>
-                <li><a onclick="showProvinces()">Provinces</a></li>
+                <li><a onclick="showHome()" id="home-menu">Home</a></li>
+                <li><a onclick="showProvinces()" id="provinces-menu">Provinces</a></li>
             </ul>
         </nav>
+        <div id="language-toggle">
+            <a href="#" onclick="toggleLanguage()">Français</a>
+        </div>
     </header>
     <div class="content">
         <div id="home">
-            <h2>Welcome to Canada!</h2>
-            <p>
-                Canada is a beautiful country located in North America. It is known for its stunning landscapes,
-                diverse culture, and friendly people. Whether you are exploring the bustling cities, hiking in the
-                majestic Rocky Mountains, or experiencing the vibrant cultural festivals, Canada has something to offer
-                for everyone.
-            </p>
-            <p>
-                Get ready to discover the provinces and territories of Canada. Click on the "Provinces" link in the
-                navigation bar to explore the names of Canadian provinces and click on the province name to learn a little about the province.
-            </p>
+            <h2 id="welcome-title"></h2>
+            <p id="page-description"></p>
         </div>
 
         <div id="provinces" style="display: none;">
-            <h2>Canadian Provinces</h2>
+            <h2 id="provinces-title">Canadian Provinces</h2>
             <ul id="province-list"></ul>
             <div id="province-details" style="display: none;" class="province-details"></div>
         </div>
     </div>
 
-    <script>
-        // Array of Canadian provinces
-        const provinces = [
-            { name: "Alberta", details: "Alberta is known for its stunning Rocky Mountain scenery." },
-            { name: "British Columbia", details: "British Columbia offers diverse landscapes, from mountains to coastal areas." },
-            { name: "Manitoba", details: "Manitoba is known for its beautiful lakes and prairie landscapes." },
-            { name: "New Brunswick", details: "New Brunswick is famous for its picturesque coastline and charming towns." },
-            { name: "Newfoundland and Labrador", details: "Newfoundland and Labrador feature breathtaking coastal scenery." },
-            { name: "Nova Scotia", details: "Nova Scotia is known for its historic sites, seafood, and scenic beauty." },
-            { name: "Ontario", details: "Ontario is Canada's most populous province and home to the vibrant city of Toronto." },
-            { name: "Prince Edward Island", details: "Prince Edward Island is famous for its red sand beaches and Anne of Green Gables." },
-            { name: "Quebec", details: "Quebec is known for its French-speaking population and rich cultural heritage." },
-            { name: "Saskatchewan", details: "Saskatchewan is characterized by its vast prairies and outdoor recreational opportunities." },
-            { name: "Yukon", details: "Yukon offers stunning wilderness, including mountains and the famous Klondike Gold Rush region." }
-        ];
-    
-        function showHome() {
-            document.getElementById("home").style.display = "block";
-            document.getElementById("provinces").style.display = "none";
-        }
-    
-        function showProvinces() {
-            document.getElementById("province-details").style.display = "none";
-            document.getElementById("home").style.display = "none";
-            document.getElementById("provinces").style.display = "block";
-            renderProvinceList();
-        }
-    
-        function renderProvinceList() {
-            const provinceList = document.getElementById("province-list");
-            provinceList.innerHTML = "";
-            provinces.forEach((province) => {
-                const listItem = document.createElement("li");
-                listItem.textContent = province.name;
-                listItem.addEventListener("click", () => {
-                    showProvinceDetails(province);
-                });
-                provinceList.appendChild(listItem);
-            });
-        }
-    
-        function showProvinceDetails(province) {
-            const provinceDetails = document.getElementById("province-details");
-            document.getElementById("province-details").style.display = "block";
-            provinceDetails.textContent = province.details;
-        }
-    </script>
-<footer>
-    <p style="margin-top: 500px;margin-left: 150px;">By: ntak0001 - <strong>isusoent  ⧷ </strong> 2023</p>
-</footer>
-    </body>
-    </html>
+    <script src="script.js"></script>
+    <footer>
+        <p style="margin-top: 500px; color: black;">By: ntak0001 - <strong>isusoent  ⧷ </strong> 2023</p>
+        <div class="social-links">
+            <!-- Add your social media links here -->
+            <a href="https://www.linkedin.com/in/dio-ntakir-773715176/" target="_blank">LinkedIn Profile
+            </a>
+            <a href="https://github.com/ledidk" target="_blank">GitHub Profile
+            </a>
+            <a href="https://www.instagram.com/le.didk/" target="_blank">Instagram Profile
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
