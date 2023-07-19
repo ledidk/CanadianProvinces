@@ -20,7 +20,7 @@ Features:
 6. Social Media Links: At the bottom of the page, you can find links to the developer's LinkedIn, GitHub, and Instagram profiles.
 
 How to Use:
-1. Access the Page: You can visit the web page by using any web browser. Just type the website address or open the `index.html` file on your computer.
+1. Access the Page: You can visit the web page by using any web browser. Just type the website address or download the project and open the `index.html` file on your computer.
 
 2. Toggle Language: To change the language, click on "Français" for French or "English" for English at the top.
 
