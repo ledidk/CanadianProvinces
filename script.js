@@ -46,13 +46,13 @@ const content = {
   // Array of Canadian provinces (French version)
   const provincesFr = [
     { name: "Alberta", details: "L'Alberta est connue pour ses paysages époustouflants des Rocheuses." },
-    { name: "British Columbia", details: "La Colombie-Britannique offre des paysages variés, des montagnes aux régions côtières." },
+    { name: "British Columbia", details: "British Columbia offre des paysages variés, des montagnes aux régions côtières." },
     { name: "Manitoba", details: "Le Manitoba est connu pour ses magnifiques lacs et ses paysages de prairies." },
-    { name: "New-Brunswick", details: "Le Nouveau-Brunswick est célèbre pour ses côtes pittoresques et ses charmantes villes." },
+    { name: "New-Brunswick", details: "Newfoundland and Labrador est célèbre pour ses côtes pittoresques et ses charmantes villes." },
     { name: "Newfoundland and Labrador", details: "Terre-Neuve-et-Labrador offre des paysages côtiers à couper le souffle." },
-    { name: "Nova Scotia", details: "La Nouvelle-Écosse est connue pour ses sites historiques, ses fruits de mer et sa beauté pittoresque." },
+    { name: "Nova Scotia", details: "Nova Scotia est connue pour ses sites historiques, ses fruits de mer et sa beauté pittoresque." },
     { name: "Ontario", details: "L'Ontario est la province la plus peuplée du Canada et abrite la vibrante ville de Toronto." },
-    { name: "Prince Edward Island", details: "L'Île-du-Prince-Édouard est célèbre pour ses plages de sable rouge et Anne aux pignons verts." },
+    { name: "Prince Edward Island", details: "Le Prince Edward Island est célèbre pour ses plages de sable rouge et Anne aux pignons verts." },
     { name: "Québec", details: "Le Québec est connu pour sa population francophone et son riche patrimoine culturel." },
     { name: "Saskatchewan", details: "La Saskatchewan est caractérisée par ses vastes prairies et ses opportunités de loisirs en plein air." },
     { name: "Yukon", details: "Le Yukon offre une nature sauvage époustouflante, des montagnes aux célèbres régions de ruée vers l'or du Klondike." }
