@@ -2,7 +2,7 @@
 
 Description:
 
-Welcome to My Canada Page! 
+Welcome to My Canada Project Page! 
 
 It is a web project that provides information about Canadian provinces in both English and French. You can explore the names of Canadian provinces and learn more about each province by clicking on them. The project aims to showcase basic web development skills and offers bilingual content for a better user experience.
 
