@@ -29,8 +29,9 @@ How to Use:
 Future Plans:
 I'm continuously working on this project to make it even better! Soon, the page will display real-time data and have more exciting content for you to explore.
 
-Author:
-This project is created and maintained by Ledidk (Dieudonne Ntakirutimana). I'm just starting my journey in web development, and I hope you enjoy viewing my work.
+I'm just starting my journey in web development, and I hope you enjoy viewing my work.
+
+URLs: https://ledidk.github.io/CatDayCare/
 
 Contact:
 If you have a job offer, any suggestions or questions, you can contact me at ddkntakirutimana@gmail.com.
