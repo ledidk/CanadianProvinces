@@ -11,7 +11,7 @@ Features:
 
 2. Province List: You can see a list of Canadian provinces. The names of provinces will change based on the language you choose.
 
-3. Province Details: Clicking on a province name will show you more information about that specific province. The details are also available in both English and French.
+3. Province Details: Clicking on a province name will show you basic information about that specific province. The details are also available in both English and French.
 
 4. Navigation: At the top is a simple menu to move between the "Home" and "Provinces" sections.
 
