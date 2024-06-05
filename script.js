@@ -2,7 +2,7 @@
 const content = {
   en: {
     pageTitle: "View Canadian Provinces Names",
-    welcomeTitle: "Welcome to Canada!",
+    welcomeTitle: "Welcome to My Canada Web Page!",
     pageDescription: `<p>Canada is a beautiful country located in North America. It is known for its stunning landscapes,
   diverse culture, and friendly people. Whether you are exploring the bustling cities, hiking in the
   majestic Rocky Mountains, or experiencing the vibrant cultural festivals, Canada has something to offer
@@ -15,7 +15,7 @@ const content = {
   },
   fr: {
     pageTitle: "Voir les noms des provinces canadiennes",
-    welcomeTitle: "Bienvenue au Canada !",
+    welcomeTitle: "Bienvenue sur la page Web Mon Canada!",
     pageDescription: `<p>Le Canada est un magnifique pays situé en Amérique du Nord. Il est connu pour ses paysages époustouflants,
   sa culture diversifiée et ses habitants chaleureux. Que vous exploriez les villes animées, fassiez de la randonnée
   dans les majestueuses Rocheuses ou participiez aux festivals culturels vibrants, le Canada a quelque chose à offrir
