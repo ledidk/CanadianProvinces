@@ -32,8 +32,3 @@ I'm continuously working on this project to make it even better! Soon, the page 
 I'm just starting my journey in web development, and I hope you enjoy viewing my work.
 
 URLs: https://ledidk.github.io/CanadianProvinces
-
-Contact:
-If you have a job offer, any suggestions or questions, you can contact me at ddkntakirutimana@gmail.com.
-
-Thank you for visiting My Canada Page, and have fun discovering the beauty of Canadian provinces!
